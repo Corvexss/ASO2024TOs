@@ -1,0 +1,33 @@
+2024-04-20 19:26:00.477 [info] Getting Manifest... ms-python.python
+2024-04-20 19:26:00.589 [info] Installing extension: ms-python.python
+2024-04-20 19:26:07.379 [info] Extension signature is verified: ms-python.python
+2024-04-20 19:26:17.637 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2024-04-20 19:26:17.716 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2024-04-20 19:26:21.496 [info] Getting Manifest... ms-vscode.cpptools
+2024-04-20 19:26:22.060 [info] Getting Manifest... ms-vscode.cmake-tools
+2024-04-20 19:26:22.509 [info] Getting Manifest... twxs.cmake
+2024-04-20 19:26:22.777 [info] Getting Manifest... ms-vscode.cpptools-themes
+2024-04-20 19:26:23.447 [info] Installing extension: ms-vscode.cpptools
+2024-04-20 19:26:23.447 [info] Installing extension: ms-vscode.cmake-tools
+2024-04-20 19:26:23.447 [info] Installing extension: twxs.cmake
+2024-04-20 19:26:23.448 [info] Installing extension: ms-vscode.cpptools-themes
+2024-04-20 19:26:32.610 [info] Extension signature is verified: ms-vscode.cpptools-extension-pack
+2024-04-20 19:26:32.687 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0: ms-vscode.cpptools-extension-pack
+2024-04-20 19:26:32.794 [info] Renamed to /home/cody/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2024-04-20 19:26:32.799 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2024-04-20 19:26:40.622 [info] Extension signature is verified: ms-vscode.cpptools-themes
+2024-04-20 19:26:41.189 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0: ms-vscode.cpptools-themes
+2024-04-20 19:26:41.229 [info] Renamed to /home/cody/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2024-04-20 19:26:41.246 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2024-04-20 19:26:45.900 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-04-20 19:26:46.011 [info] Renamed to /home/cody/.vscode/extensions/ms-python.python-2024.4.1
+2024-04-20 19:26:46.025 [info] Extracting extension completed. ms-python.python
+2024-04-20 19:26:46.172 [info] Extension installed successfully: ms-python.python
+2024-04-20 19:26:46.315 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-20 19:26:46.345 [info] Marked extension as uninstalled ms-python.python-2024.4.0

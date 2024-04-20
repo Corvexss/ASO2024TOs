@@ -1,0 +1,86 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/cody/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xfce:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LANGUAGE=es_AR:es
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/xfce.mandatory.path
+dbus-update-activation-environment: setting DESKTOP_SESSION=xfce
+dbus-update-activation-environment: setting GTK_MODULES=:canberra-gtk-module
+dbus-update-activation-environment: setting PWD=/home/cody
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xfce
+dbus-update-activation-environment: setting LOGNAME=cody
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/cody/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/cody
+dbus-update-activation-environment: setting GDM_LANG=es
+dbus-update-activation-environment: setting HOME=/home/cody
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=es_AR.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/xfce.default.path
+dbus-update-activation-environment: setting USER=cody
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+dbus-update-activation-environment: setting GDMSESSION=xfce
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 17:56:24.700: SSH authentication agent is already running
+gpg-agent[1553]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1504): xfce4-session-WARNING **: 17:56:24.732: gpg-agent returned no PID in the variables
+
+(xfce4-session:1504): xfce4-session-WARNING **: 17:56:24.877: xfsm_manager_load_session: Something wrong with /home/cody/.cache/sessions/xfce4-session-cody-VirtualBox:0, Does it exist? Permissions issue?
+
+(xfwm4:1556): xfwm4-WARNING **: 17:56:25.957: Unsupported GL renderer (llvmpipe (LLVM 9.0.1, 128 bits)).
+
+(wrapper-2.0:1590): Gtk-WARNING **: 17:55:07.443: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1591): Gtk-WARNING **: 17:55:07.571: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 28
+
+(wrapper-2.0:1593): Gtk-WARNING **: 17:55:07.662: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1592): Gtk-WARNING **: 17:55:08.720: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+Playing WAVE '/usr/share/sounds/Lite/stereo/startupsound.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+
+(polkit-gnome-authentication-agent-1:1633): GLib-CRITICAL **: 17:55:10.031: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1633): polkit-gnome-1-WARNING **: 17:55:10.057: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (xfce4-screensaver:1638): WARNING **: 17:55:10.131: el salvapantallas ya se está ejecutando en esta sesión
+
+(nm-applet:1640): Gtk-WARNING **: 17:55:10.894: Can't set a parent on widget which has a parent
+
+(xfdesktop:1610): GLib-CRITICAL **: 18:15:09.159: g_variant_new_string: assertion 'string != NULL' failed
+La carpeta de trabajo «/home/cody/[Invalid UTF-8]» no existe. Esta no se utilizará para ejecutar «/usr/share/code/code».
+(xfdesktop:1610): GLib-CRITICAL **: 18:15:11.111: g_variant_new_string: assertion 'string != NULL' failed
+La carpeta de trabajo «/home/cody/[Invalid UTF-8]» no existe. Esta no se utilizará para ejecutar «/usr/share/code/code».libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+
+(xfdesktop:1610): GLib-CRITICAL **: 18:19:03.495: g_variant_new_string: assertion 'string != NULL' failed
+La carpeta de trabajo «/home/cody/[Invalid UTF-8]» no existe. Esta no se utilizará para ejecutar «exo-open».
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+
+(xfce4-panel:1573): xfce4-panel-CRITICAL **: 19:39:48.809: panel-window.c:3086 (panel_window_thaw_autohide): expression 'window->autohide_block > 0' failed.
+
+(xfce4-panel:1573): xfce4-panel-CRITICAL **: 19:39:49.129: panel-window.c:3086 (panel_window_thaw_autohide): expression 'window->autohide_block > 0' failed.
+
+(Thunar:1602): GLib-GObject-WARNING **: 19:51:58.659: invalid uninstantiatable type '(null)' in cast to 'GObject'
+
+(Thunar:1602): GLib-GObject-CRITICAL **: 19:51:58.659: g_object_set_qdata: assertion 'G_IS_OBJECT (object)' failed

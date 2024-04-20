@@ -1,0 +1,5 @@
+2024-04-20 18:15:17.862 [info] Started local extension host with pid 6739.
+2024-04-20 18:15:23.814 [info] [perf] Render performance baseline is 61ms
+2024-04-20 18:16:14.640 [warning] [backup tracker] suspended, ignoring content change event untitled:Untitled-1 
+2024-04-20 18:16:14.640 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2024-04-20 18:16:14.727 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 

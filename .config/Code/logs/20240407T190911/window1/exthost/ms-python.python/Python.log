@@ -1,0 +1,62 @@
+2024-04-07 19:25:00.889 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-07 19:25:00.889 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-07 19:25:00.889 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-07 19:25:00.889 [info] Experiment 'pythonTestAdapter' is active
+2024-04-07 19:25:00.970 [info] Test server listening.
+2024-04-07 19:25:00.983 [info] > conda info --json
+2024-04-07 19:25:01.017 [info] Found: /bin/python2 --> /bin/python2.7
+2024-04-07 19:25:01.020 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-04-07 19:25:01.032 [info] Found: /bin/python3 --> /bin/python3.8
+2024-04-07 19:25:01.033 [info] Found: /bin/python3.7 --> /bin/python3.7
+2024-04-07 19:25:01.034 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-04-07 19:25:01.090 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-04-07 19:25:01.092 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-04-07 19:25:01.093 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-04-07 19:25:01.094 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-04-07 19:25:01.094 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-04-07 19:25:01.134 [info] > /bin/python2 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.219 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.231 [warning] [Error: Command failed: /bin/python2 -I /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py'
+}
+2024-04-07 19:25:01.231 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-07 19:25:01.232 [info] > /bin/python2 ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.296 [info] > /bin/python3.7 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.573 [info] > /usr/bin/python2 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.764 [warning] [Error: Command failed: /usr/bin/python2 -I /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py /home/cody/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py'
+}
+2024-04-07 19:25:01.764 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-07 19:25:01.795 [info] > /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.858 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:01.897 [info] > /usr/bin/python3.7 -I ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.0/python_files/interpreterInfo.py
+2024-04-07 19:25:02.076 [info] Python interpreter path: /bin/python3
+2024-04-07 19:25:02.430 [info] Shell integration status changed, can confirm it's working.
+2024-04-07 19:25:03.922 [info] Starting Pylance language server.
+2024-04-07 19:25:39.182 [info] Send text to terminal:  /bin/python3 /home/cody/.vscode/extensions/ms-python.debugpy-2024.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42169 -- /home/cody/Documents/print\(\"hello\ world\"\).py 

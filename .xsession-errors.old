@@ -1,0 +1,92 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/cody/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xfce:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting LANGUAGE=es_AR:es
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/xfce.mandatory.path
+dbus-update-activation-environment: setting DESKTOP_SESSION=xfce
+dbus-update-activation-environment: setting GTK_MODULES=:canberra-gtk-module
+dbus-update-activation-environment: setting PWD=/home/cody
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xfce
+dbus-update-activation-environment: setting LOGNAME=cody
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/cody/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/cody
+dbus-update-activation-environment: setting GDM_LANG=es
+dbus-update-activation-environment: setting HOME=/home/cody
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=es_AR.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=XFCE
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/xfce.default.path
+dbus-update-activation-environment: setting USER=cody
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+dbus-update-activation-environment: setting GDMSESSION=xfce
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 18:50:12.329: SSH authentication agent is already running
+gpg-agent[1489]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:1440): xfce4-session-WARNING **: 18:50:12.337: gpg-agent returned no PID in the variables
+
+(xfce4-session:1440): xfce4-session-WARNING **: 18:50:12.348: xfsm_manager_load_session: Something wrong with /home/cody/.cache/sessions/xfce4-session-cody-VirtualBox:0, Does it exist? Permissions issue?
+
+(xfwm4:1492): xfwm4-WARNING **: 18:50:13.297: Unsupported GL renderer (llvmpipe (LLVM 9.0.1, 128 bits)).
+
+(wrapper-2.0:1527): Gtk-WARNING **: 18:50:14.677: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 28
+
+(wrapper-2.0:1529): Gtk-WARNING **: 18:50:14.876: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1526): Gtk-WARNING **: 18:50:15.062: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1528): Gtk-WARNING **: 18:50:15.597: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+Playing WAVE '/usr/share/sounds/Lite/stereo/startupsound.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+
+** (xfce4-screensaver:1567): WARNING **: 18:50:17.396: el salvapantallas ya se está ejecutando en esta sesión
+
+(polkit-gnome-authentication-agent-1:1565): GLib-CRITICAL **: 18:50:17.457: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1565): polkit-gnome-1-WARNING **: 18:50:17.458: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:1569): Gtk-WARNING **: 18:50:18.197: Can't set a parent on widget which has a parent
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+Warning: vkCreateInstance: Found no drivers!
+Warning: vkCreateInstance failed with VK_ERROR_INCOMPATIBLE_DRIVER
+    at CheckVkSuccessImpl (../../third_party/dawn/src/dawn/native/vulkan/VulkanError.cpp:101)
+    at CreateVkInstance (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:493)
+    at Initialize (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:379)
+    at Create (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:301)
+    at operator() (../../third_party/dawn/src/dawn/native/vulkan/BackendVk.cpp:556)
+
+[3785:0407/191506.128319:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.140679:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.756717:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.758158:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.758206:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.758235:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191506.758778:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.054119:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.490801:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.490986:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.491023:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.491032:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191507.491938:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.773799:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.912539:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.913609:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.913651:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.913674:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[3785:0407/191508.921936:ERROR:check.cc(297)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[91m[main 2024-04-07T22:24:58.770Z][0m Blocked vscode-webview request vscode-webview://01tio3of5atmbt5ibhbdjo6orlvta69fn55f877vhfno88as74d3/index.html?id=f7b78e11-235c-4c7a-bf98-11aa477f937c&origin=f7b78e11-235c-4c7a-bf98-11aa477f937c&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&disableServiceWorker=true

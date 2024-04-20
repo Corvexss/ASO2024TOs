@@ -1,0 +1,57 @@
+2024-04-07 19:09:15.186 [info] Started initializing default profile extensions in extensions installation folder. file:///home/cody/.vscode/extensions
+2024-04-07 19:09:16.289 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-07 19:09:17.165 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/cody/.vscode/extensions Unable to create file 'vscode-userdata:/home/cody/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-04-07 19:09:17.165 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/cody/.vscode/extensions
+2024-04-07 19:20:19.833 [info] Getting Manifest... ms-python.python
+2024-04-07 19:20:19.866 [info] Installing extension: ms-python.python
+2024-04-07 19:20:21.447 [info] Getting Manifest... ms-python.debugpy
+2024-04-07 19:20:21.480 [info] Installing extension: ms-python.debugpy
+2024-04-07 19:20:21.903 [info] Getting Manifest... ms-python.vscode-pylance
+2024-04-07 19:20:22.310 [info] Getting Manifest... ms-python.debugpy
+2024-04-07 19:20:22.779 [info] Getting Manifest... ms-python.python
+2024-04-07 19:20:23.029 [info] Installing extension: ms-python.vscode-pylance
+2024-04-07 19:20:23.029 [info] Waiting for already requested installing extension ms-python.debugpy ms-python.python
+2024-04-07 19:20:23.837 [info] Getting Manifest... ms-python.vscode-pylance
+2024-04-07 19:21:12.966 [info] Extension signature is verified: ms-python.debugpy
+2024-04-07 19:21:26.523 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-python.debugpy-2024.4.0-linux-x64: ms-python.debugpy
+2024-04-07 19:21:26.579 [info] Renamed to /home/cody/.vscode/extensions/ms-python.debugpy-2024.4.0-linux-x64
+2024-04-07 19:21:26.662 [info] Extracting extension completed. ms-python.debugpy
+2024-04-07 19:21:26.711 [info] Extension installed successfully: ms-python.debugpy
+2024-04-07 19:21:26.712 [info] Finished waiting for already requested installing extension ms-python.debugpy ms-python.python
+2024-04-07 19:21:26.823 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-07 19:22:53.120 [info] Extension signature is verified: ms-python.python
+2024-04-07 19:23:09.375 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-04-07 19:24:13.076 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-python.python-2024.4.0: ms-python.python
+2024-04-07 19:24:13.177 [info] Renamed to /home/cody/.vscode/extensions/ms-python.python-2024.4.0
+2024-04-07 19:24:13.220 [info] Extracting extension completed. ms-python.python
+2024-04-07 19:24:13.361 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-07 19:24:58.303 [info] Extracted extension to file:///home/cody/.vscode/extensions/ms-python.vscode-pylance-2024.4.1: ms-python.vscode-pylance
+2024-04-07 19:24:58.360 [info] Renamed to /home/cody/.vscode/extensions/ms-python.vscode-pylance-2024.4.1
+2024-04-07 19:24:58.403 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-04-07 19:24:58.454 [info] Extension installed successfully: ms-python.python
+2024-04-07 19:24:58.454 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-04-07 19:24:58.516 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/cody/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
